@@ -9,8 +9,8 @@ function printBadges(array){
 }
 
 function tailsNeverFails(){
+  const message
   counter = 0
-  message=``
   while( Math.random >= 0.5){
     counter = counter + 1;
   }
