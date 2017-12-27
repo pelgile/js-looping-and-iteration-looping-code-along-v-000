@@ -13,6 +13,6 @@ function tailsNeverFails(){
   while (Math.random >= 0.5) {
     count = count + 1;
   }
-  let message = `You got ${counter} tails in a row!`
+  let message = `You got ${count} tails in a row!`
   return message
 }
