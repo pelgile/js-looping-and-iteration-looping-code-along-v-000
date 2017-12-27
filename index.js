@@ -8,12 +8,11 @@ function printBadges(array){
   return array
 }
 
-
 function tailsNeverFails(){
-  counter = 0;
-  while (Math.random() <=0.5) {
-    counter = counter + 1
+  let count = 0;
+  while (Math.random() >= 0.5) {
+    count = count + 1;
   }
-  message = `You got ${counter} tails in a row!`
+  let message = `You got ${count} tails in a row!`
   return message
 }
